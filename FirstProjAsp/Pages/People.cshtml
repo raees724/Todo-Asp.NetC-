@@ -1,0 +1,118 @@
+﻿@page
+@model FirstProjAsp.Pages.PeopleModel
+@using FirstProjAsp.Models
+@{
+
+    <!-- Add New Person -->
+    <h2>Add New Person</h2>
+    <form method="post" asp-page-handler="Add">
+        <div class="form-group">
+            <label asp-for="NewPerson.Name" class="control-label"></label>
+            <input asp-for="NewPerson.Name" class="form-control" />
+            <span asp-validation-for="NewPerson.Name" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="NewPerson.Age" class="control-label"></label>
+            <input asp-for="NewPerson.Age" class="form-control" />
+            <span asp-validation-for="NewPerson.Age" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-secondary m-2">Add</button>
+    </form>
+
+    <!-- Edit Person -->
+    <h2>Edit Person</h2>
+    <form method="post" asp-page-handler="Edit">
+        <div class="form-group">
+            <input type="hidden" asp-for="EditPerson.Id" id="editPersonId" />
+            <div class="form-group">
+                <label asp-for="EditPerson.Name" class="control-label"></label>
+                <input asp-for="EditPerson.Name" class="form-control" id="editPersonName" />
+                <span asp-validation-for="EditPerson.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EditPerson.Age" class="control-label"></label>
+                <input asp-for="EditPerson.Age" class="form-control" id="editPersonAge" />
+                <span asp-validation-for="EditPerson.Age" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-secondary m-2">Save changes</button>
+        </div>
+    </form>
+
+    <!-- List of People -->
+    <h2>List of People</h2>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Person person in Model.People)
+            {
+                <tr>
+                    <td>@person.Id</td>
+                    <td>@person.Name</td>
+                    <td>@person.Age</td>
+                    <td>
+                        <!-- Edit Button -->
+                        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#editModal" 
+                                onclick="fillEditForm(@person.Id, '@person.Name', @person.Age)">
+                            Edit
+                        </button>
+                        <!-- Delete Button -->
+                        <form method="post" asp-page-handler="Delete" style="display:inline;">
+                            <input type="hidden" name="id" value="@person.Id" />
+                            <button type="submit" class="btn btn-danger">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <!-- Edit Modal -->
+    <div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Edit Person</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body mt-1 mb-1">
+                    <form method="post" asp-page-handler="Edit">
+                        <input type="hidden" asp-for="EditPerson.Id" id="editPersonId" />
+                        <div class="form-group">
+                            <label asp-for="EditPerson.Name" class="control-label"></label>
+                            <input asp-for="EditPerson.Name" class="form-control" id="editPersonName" />
+                            <span asp-validation-for="EditPerson.Name" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="EditPerson.Age" class="control-label"></label>
+                            <input asp-for="EditPerson.Age" class="form-control" id="editPersonAge" />
+                            <span asp-validation-for="EditPerson.Age" class="text-danger"></span>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+@section Scripts {
+    <script>
+        function fillEditForm(id, name, age) {
+            document.getElementById('editPersonId').value = id;
+            document.getElementById('editPersonName').value = name;
+            document.getElementById('editPersonAge').value = age;
+        }
+    </script>
+}

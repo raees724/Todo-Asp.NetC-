@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\91859\\Desktop\\FirstProjAsp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93FC00B4-28E7-4471-91D5-620F7A7DA541}|FirstProjAsp\\FirstProjAsp.csproj|c:\\users\\91859\\desktop\\firstprojasp\\firstprojasp\\pages\\people.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93FC00B4-28E7-4471-91D5-620F7A7DA541}|FirstProjAsp\\FirstProjAsp.csproj|solutionrelative:firstprojasp\\pages\\people.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93FC00B4-28E7-4471-91D5-620F7A7DA541}|FirstProjAsp\\FirstProjAsp.csproj|c:\\users\\91859\\desktop\\firstprojasp\\firstprojasp\\pages\\people.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93FC00B4-28E7-4471-91D5-620F7A7DA541}|FirstProjAsp\\FirstProjAsp.csproj|solutionrelative:firstprojasp\\pages\\people.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93FC00B4-28E7-4471-91D5-620F7A7DA541}|FirstProjAsp\\FirstProjAsp.csproj|c:\\users\\91859\\desktop\\firstprojasp\\firstprojasp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93FC00B4-28E7-4471-91D5-620F7A7DA541}|FirstProjAsp\\FirstProjAsp.csproj|solutionrelative:firstprojasp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93FC00B4-28E7-4471-91D5-620F7A7DA541}|FirstProjAsp\\FirstProjAsp.csproj|c:\\users\\91859\\desktop\\firstprojasp\\firstprojasp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{93FC00B4-28E7-4471-91D5-620F7A7DA541}|FirstProjAsp\\FirstProjAsp.csproj|solutionrelative:firstprojasp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93FC00B4-28E7-4471-91D5-620F7A7DA541}|FirstProjAsp\\FirstProjAsp.csproj|c:\\users\\91859\\desktop\\firstprojasp\\firstprojasp\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93FC00B4-28E7-4471-91D5-620F7A7DA541}|FirstProjAsp\\FirstProjAsp.csproj|solutionrelative:firstprojasp\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\91859\\Desktop\\FirstProjAsp\\FirstProjAsp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FirstProjAsp\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\91859\\Desktop\\FirstProjAsp\\FirstProjAsp\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FirstProjAsp\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwBEAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T09:09:43.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\91859\\Desktop\\FirstProjAsp\\FirstProjAsp\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "FirstProjAsp\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\91859\\Desktop\\FirstProjAsp\\FirstProjAsp\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "FirstProjAsp\\wwwroot\\css\\site.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAQwAsAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-08-01T09:08:37.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\91859\\Desktop\\FirstProjAsp\\FirstProjAsp\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "FirstProjAsp\\Models\\Person.cs",
+              "ToolTip": "C:\\Users\\91859\\Desktop\\FirstProjAsp\\FirstProjAsp\\Models\\Person.cs",
+              "RelativeToolTip": "FirstProjAsp\\Models\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T08:34:07.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "People.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\91859\\Desktop\\FirstProjAsp\\FirstProjAsp\\Pages\\People.cshtml.cs",
+              "RelativeDocumentMoniker": "FirstProjAsp\\Pages\\People.cshtml.cs",
+              "ToolTip": "C:\\Users\\91859\\Desktop\\FirstProjAsp\\FirstProjAsp\\Pages\\People.cshtml.cs",
+              "RelativeToolTip": "FirstProjAsp\\Pages\\People.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T07:59:30.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "People.cshtml",
+              "DocumentMoniker": "C:\\Users\\91859\\Desktop\\FirstProjAsp\\FirstProjAsp\\Pages\\People.cshtml",
+              "RelativeDocumentMoniker": "FirstProjAsp\\Pages\\People.cshtml",
+              "ToolTip": "C:\\Users\\91859\\Desktop\\FirstProjAsp\\FirstProjAsp\\Pages\\People.cshtml",
+              "RelativeToolTip": "FirstProjAsp\\Pages\\People.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACQAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-01T07:43:18.461Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
